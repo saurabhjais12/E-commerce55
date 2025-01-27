@@ -1,6 +1,6 @@
 const express= require("express");
 const userSignUpController = require("../controllers/signin");
-const userSignInController = require("../controllers/login");
+// const userSignInController = require("../controllers/login");
 const userDetailsController = require("../controllers/userdetails");
 const authToken = require("../middleware/authtoken");
 const logout = require("../controllers/logout");
@@ -11,6 +11,7 @@ const getCategoryProduct = require("../controllers/getCategory.");
 const getCategoryWiseProduct = require("../controllers/getCategoryWiseProduct");
 const getProductDetails = require("../controllers/getProductdetails");
 const searchProduct = require("../controllers/searchProduct");
+const userSignInController = require("../controllers/login.js");
 
 
 const router =express.Router();
