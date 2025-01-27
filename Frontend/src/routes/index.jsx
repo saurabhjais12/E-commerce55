@@ -9,7 +9,7 @@ import AllUsers from "../Pages/AllUsers";
 import CategoryProduct from "../Pages/CategoryProduct";
 import ProductDetails from "../Pages/ProductDetails";
 import SearchProduct from "../Pages/SearchProduct";
-import AdminPanel from "../Pages/adminPanel";
+import AdminPanel from "../Pages/AdminPanel.jsx";
 
 const router =createBrowserRouter([
     {
