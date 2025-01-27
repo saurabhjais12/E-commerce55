@@ -11,14 +11,15 @@ const getCategoryProduct = require("../controllers/getCategory.");
 const getCategoryWiseProduct = require("../controllers/getCategoryWiseProduct");
 const getProductDetails = require("../controllers/getProductdetails");
 const searchProduct = require("../controllers/searchProduct");
-const userSignInController = require("../controllers/login.js");
+// const userSignInController = require("../controllers/login.js");
 
 
 const router =express.Router();
 
 
 router.post("/signup",userSignUpController );
-router.post("/login",userSignInController);
+// router.post("/login",userSignInController);
+
 router.get("/user-details",authToken,userDetailsController)
 router.get("/logout",logout)
 
