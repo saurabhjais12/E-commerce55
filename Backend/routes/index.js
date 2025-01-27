@@ -1,6 +1,6 @@
 const express= require("express");
 const userSignUpController = require("../controllers/signin");
-// const userSignInController = require("../controllers/login");
+
 const userDetailsController = require("../controllers/userdetails");
 const authToken = require("../middleware/authtoken");
 const logout = require("../controllers/logout");
